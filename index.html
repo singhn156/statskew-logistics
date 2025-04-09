@@ -1,146 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Statskew - AI Consultancy & Services</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Statskew - AI Consultancy</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Statskew</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-           data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-           aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="#home">Home</a>
-        <a class="nav-item nav-link" href="#services">Services</a>
-        <a class="nav-item nav-link" href="#about">About</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+<body class="dark-theme">
+  <header>
+    <h1>Statskew</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="jumbotron text-center bg-light">
-    <div class="container">
-      <h1 class="display-4">Welcome to Statskew</h1>
-      <p class="lead">Innovative AI consultancy and services to drive your business forward.</p>
-      <a class="btn btn-primary btn-lg" href="#services" role="button">Explore our Services</a>
-    </div>
-  </section>
+  <main>
+    <section class="hero">
+      <h2>AI Consultancy for the Future</h2>
+      <p>Empowering businesses with AI-powered solutions – from enterprise chatbots to demand forecasting and more.</p>
+    </section>
 
-  <!-- Services Section -->
-  <section id="services" class="container py-5">
-    <div class="row">
-      <!-- Enterprise Chatbots -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Enterprise Chatbots</h5>
-            <p class="card-text">Enhance your customer support with advanced chatbots designed for enterprise-level interactions.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Logistics Automation -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Logistics Automation</h5>
-            <p class="card-text">Streamline your operations with AI and automation solutions to optimize your logistics processes.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Demand Forecast & Space Optimization -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Demand Forecast & Space Optimization</h5>
-            <p class="card-text">Make informed decisions with our predictive analytics for demand forecasting and space utilization.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Voice-Based Assistance in Healthcare -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Voice Assistance in Healthcare</h5>
-            <p class="card-text">Provide multilingual, voice-based assistance to enhance patient support and service delivery.</p>
-          </div>
-        </div>
-      </div>
-      <!-- AI-Driven Marketing -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">AI-driven Marketing</h5>
-            <p class="card-text">Optimize your marketing strategies with AI insights to boost customer acquisition and retention.</p>
-          </div>
-        </div>
-      </div>
-      <!-- AI Receptionist -->
-      <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">AI Receptionist</h5>
-            <p class="card-text">Deliver exceptional front desk service with our intelligent, AI-powered receptionist solution.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section class="services-preview">
+      <h3>Our Services</h3>
+      <ul>
+        <li><a href="services/chatbots.html">Enterprise Chatbots</a></li>
+        <li><a href="services/logistics.html">AI in Logistics</a></li>
+        <li><a href="services/forecasting.html">Demand Forecast & Space Optimization</a></li>
+        <li><a href="services/voice-assistants.html">Multilingual Voice Assistants in Healthcare</a></li>
+        <li><a href="services/marketing.html">Marketing with AI</a></li>
+        <li><a href="services/receptionist.html">AI Receptionist</a></li>
+      </ul>
+    </section>
+  </main>
 
-  <!-- About Section -->
-  <section id="about" class="bg-secondary text-white py-5">
-    <div class="container">
-      <h2>About Statskew</h2>
-      <p>At Statskew, we specialize in delivering cutting-edge AI solutions tailored to your business needs. Our team is driven by innovation, ensuring that your enterprise stays ahead of the competition.</p>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="container py-5">
-    <h2>Contact Us</h2>
-    <p>If you're ready to transform your business with AI, please get in touch!</p>
-    <form>
-      <div class="form-group">
-        <label for="name">Name</label>
-        <input type="text" class="form-control" id="name" placeholder="Your name">
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="you@example.com">
-      </div>
-      <div class="form-group">
-        <label for="message">Your Message</label>
-        <textarea class="form-control" id="message" rows="4" placeholder="Tell us about your project"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white py-3 text-center">
-    <div class="container">
-      <p class="mb-0">&copy; 2025 Statskew. All rights reserved.</p>
-      <p>Follow us on 
-         <a href="#" class="text-white">LinkedIn</a>, 
-         <a href="#" class="text-white">Twitter</a> and 
-         <a href="#" class="text-white">Facebook</a>
-      </p>
-    </div>
+  <footer>
+    <p>&copy; 2025 Statskew. All rights reserved.</p>
   </footer>
-
-  <!-- Bootstrap JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
