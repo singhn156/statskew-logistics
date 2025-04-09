@@ -1,34 +1,62 @@
-/* style.css */
-
-/* Hero Section Customization */
-.jumbotron {
-  background: url('hero-background.jpg') no-repeat center center;
-  background-size: cover;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+/* styles.css */
+body.dark-theme {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Card Hover Effects */
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+header {
+  background-color: #161b22;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Form Elements */
-form .form-control {
-  border-radius: 0;
+header h1 {
+  margin: 0;
+  font-size: 1.5em;
 }
 
-form button {
-  border-radius: 0;
+nav a {
+  color: #58a6ff;
+  margin-left: 1.5em;
+  text-decoration: none;
 }
 
-/* Footer Link Hover */
-footer a {
-  transition: color 0.3s ease;
+nav a:hover {
+  text-decoration: underline;
 }
 
-footer a:hover {
-  color: #dcdcdc;
+.hero {
+  padding: 3em 2em;
+  text-align: center;
+}
+
+.services-preview {
+  padding: 2em;
+  background-color: #21262d;
+}
+
+.services-preview ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-preview li {
+  margin: 1em 0;
+}
+
+.services-preview a {
+  color: #58a6ff;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #161b22;
+  margin-top: 2em;
 }
